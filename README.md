@@ -25,6 +25,20 @@
         --c-green: rgb(133,153,0);
       }
 
+      /* Not quite how it looks in the example... */
+      article
+      {
+        border: 3px solid var(--c-cyan);
+        padding: 15px; 
+        margin: 15px; 
+      }
+
+      article h3 
+      {
+        border-bottom: 3px solid var(--c-cyan);
+        padding-bottom: 5px;
+      }
+
       body 
       {
         background-color: var(--c-background-color);
@@ -38,6 +52,12 @@
       main, header, footer 
       {
         color: var(--base-font-color);
+      }
+
+      /* Hover part doesnt work... needs to be fixed */
+      aside li a:hover 
+      {
+        color: var(--c-orange);
       }
 
     </style>
@@ -94,11 +114,11 @@
         <h2>Related</h2>
 
         <ul>
-          <li><a href="#">Oh I do like to be beside the seaside</a></li>
-          <li><a href="#">Oh I do like to be beside the sea</a></li>
-          <li><a href="#">Although in the North of England</a></li>
-          <li><a href="#">It never stops raining</a></li>
-          <li><a href="#">Oh well...</a></li>
+          <li><a href="#" style="color:var(--c-magenta)">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#" style="color:var(--c-magenta)">Oh I do like to be beside the sea</a></li>
+          <li><a href="#" style="color:var(--c-magenta)">Although in the North of England</a></li>
+          <li><a href="#" style="color:var(--c-magenta)">It never stops raining</a></li>
+          <li><a href="#" style="color:var(--c-magenta)">Oh well...</a></li>
         </ul>
       </aside>
 
