@@ -1,4 +1,3 @@
-# Assessment-1.1-Web-Skills
 <!DOCTYPE html>
 <html>
   <head>
@@ -25,6 +24,22 @@
         --c-cyan: rgb(42,161,152);
         --c-green: rgb(133,153,0);
       }
+
+      body 
+      {
+        background-color: var(--c-background-color);
+      }
+
+      header, footer 
+      {
+        background-color: var(--c-background-highlights);
+      }
+
+      main, header, footer 
+      {
+        color: var(--base-font-color);
+      }
+
     </style>
 
   </head>
