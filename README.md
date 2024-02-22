@@ -44,6 +44,25 @@
         background-color: var(--c-background-color);
       }
 
+      header    
+      {
+        text-align: center;
+      }
+
+      header h1 
+      {
+        font-size: 150%;
+        color: var(--c-yellow);
+      }
+
+      nav ul 
+      {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+      }
+
       header, footer 
       {
         background-color: var(--c-background-highlights);
