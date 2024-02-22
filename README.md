@@ -42,6 +42,14 @@
       body 
       {
         background-color: var(--c-background-color);
+        max-width: 800px;
+        margin: 0 auto; /* Added this so content wasnt on the left of the screen - dunno if required?? */
+      }
+
+      article h2,
+      article h3 
+      {
+        padding-top: 50px;
       }
 
       header    
@@ -77,6 +85,23 @@
       aside li a:hover 
       {
         color: var(--c-orange);
+      }
+
+      /* Cant seem to get 'Related' to move... */
+      aside 
+      {
+        align-items: right;
+      }
+
+      aside 
+      {
+        color: var(--c-green);
+      }
+
+      /* Still cant get hover to work... */
+      aside a:hover 
+      {
+        color: var(--c-blue);
       }
 
     </style>
